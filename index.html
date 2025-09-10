@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Langue & Terroirs</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="font-sans text-slate-800 bg-gradient-to-b from-slate-50 to-white">
+
+<!-- Navbar -->
+<header class="sticky top-0 bg-white/80 backdrop-blur border-b z-50">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+        <a href="#home" class="font-serif text-xl font-semibold">Langue & Terroirs</a>
+        <nav class="hidden md:flex gap-6 text-sm">
+            <a href="#about" class="hover:text-slate-900">À propos</a>
+            <a href="#services" class="hover:text-slate-900">Cours</a>
+            <a href="#activities" class="hover:text-slate-900">Activités</a>
+            <a href="/contact.html" class="hover:text-slate-900">Contact</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero -->
+<section id="home" class="relative">
+    <div class="absolute inset-0 bg-[url('/assets/images/bg.jpeg')] bg-cover bg-center opacity-25"></div>
+    <div class="relative max-w-6xl mx-auto px-4 py-24">
+        <h1 class="text-4xl md:text-6xl font-serif leading-tight">
+            Pratiquer la langue française en faisant du tourisme à Bordeaux
+        </h1>
+        <p class="mt-4 text-lg">
+            Pour les étrangers qui étudient le français.<br>
+            Cours de conversation à Bordeaux et en ligne.
+        </p>
+        <div class="mt-6 flex gap-3">
+            <a href="#contact" class="bg-blue-600 text-white px-6 py-3 rounded-2xl hover:bg-blue-700">Réserver</a>
+            <a href="https://www.facebook.com/Langueetterroirs/" target="_blank" class="border px-6 py-3 rounded-2xl hover:bg-slate-100">Facebook</a>
+        </div>
+    </div>
+</section>
+
+<!-- À propos -->
+<section id="about" class="max-w-6xl mx-auto px-4 py-16 flex flex-col md:flex-row gap-10">
+  <div class="md:w-5/12">
+      <h2 class="text-3xl font-semibold mb-6">À propos</h2>
+      <p class="leading-relaxed text-xl">
+          Bonjour ! Je m'appelle <strong>Virginie</strong>. Je suis guide touristique et enseignante de français.
+          J'aide les étrangers à pratiquer et améliorer leur français tout en découvrant Bordeaux, la Gironde et le Tarn.
+          Les cours sont conviviaux, ancrés dans la culture locale et disponibles en présentiel à Bordeaux ou en ligne.
+      </p>
+  </div>
+    <div class="md:w-7/12">
+        <img loading="lazy" src="/assets/images/local3.jpg" alt="Bordeaux" class="rounded-xl w-full h-full max-w-full object-contain">
+    </div>
+</section>
+<!-- Services -->
+<section id="services" class="bg-slate-50 py-16">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-semibold mb-8">Cours</h2>
+        <div class="grid md:grid-cols-3 gap-6">
+            <div class="bg-white rounded-2xl shadow overflow-hidden">
+                <img loading="lazy" src="/assets/images/meeting.jpg" alt="Cours de conversation" class="w-full h-48 object-cover bg-slate-200">
+                <div class="p-6">
+                    <h3 class="font-semibold text-xl mb-2">Cours de conversation</h3>
+                    <p>En présentiel à Bordeaux ou en ligne (Zoom, Skype).</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow overflow-hidden">
+                <img loading="lazy" src="/assets/images/tourist.jpg" alt="Tourisme linguistique" class="w-full h-48 object-cover bg-slate-200">
+                <div class="p-6">
+                    <h3 class="font-semibold text-xl mb-2">Tourisme linguistique</h3>
+                    <p>Découverte de Bordeaux, excursions en Gironde et dans le Tarn.</p>
+                </div>
+            </div>
+            <div class="bg-white rounded-2xl shadow overflow-hidden">
+                <img loading="lazy" src="/assets/images/local1.jpg" alt="Programmes sur mesure" class="w-full h-48 object-cover bg-slate-200">
+                <div class="p-6">
+                    <h3 class="font-semibold text-xl mb-2">Programmes sur mesure</h3>
+                    <p>Adaptés au niveau et aux objectifs de chaque étudiant.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Activités culturelles -->
+<section class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-semibold mb-8">Activités culturelles</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-slate-50 rounded-2xl shadow overflow-hidden">
+            <img loading="lazy" src="/assets/images/local2.jpg" alt="Ateliers littéraires" class="w-full h-48 object-cover bg-slate-200">
+            <div class="p-6">
+                <h3 class="font-semibold text-xl mb-2">📖 Ateliers littéraires</h3>
+                <p>Lectures et discussions autour d’œuvres francophones contemporaines.</p>
+            </div>
+        </div>
+        <div class="bg-slate-50 rounded-2xl shadow overflow-hidden">
+            <img loading="lazy" src="/assets/images/friendly-meeting.jpg" alt="Rencontres conviviales" class="w-full h-48 object-cover bg-slate-200">
+            <div class="p-6">
+                <h3 class="font-semibold text-xl mb-2">🥖 Rencontres conviviales</h3>
+                <p>Pique-niques, cafés linguistiques, guinguettes pour pratiquer le français.</p>
+            </div>
+        </div>
+        <div class="bg-slate-50 rounded-2xl shadow overflow-hidden">
+            <img loading="lazy" src="/assets/images/local1.jpg" alt="Patrimoine local" class="w-full h-48 object-cover bg-slate-200">
+            <div class="p-6">
+                <h3 class="font-semibold text-xl mb-2">🏛️ Patrimoine local</h3>
+                <p>Visites guidées de Bordeaux et découverte de son histoire et traditions.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Infos Facebook -->
+<section id="facebook" class="bg-white py-16">
+    <div class="max-w-6xl mx-auto px-4">
+        <h2 class="text-3xl font-semibold mb-8">Infos et actualités </h2>
+        <div class="space-y-6">
+
+            <!-- Cours réguliers -->
+            <div class="p-6 bg-slate-50 rounded-2xl shadow">
+                <h3 class="font-semibold text-xl mb-2">📚 Cours de conversation réguliers</h3>
+                <p class="mb-2">« Tous les lundis, c'est cours de conversation niveau intermédiaire... Nous continuons en ligne pour l'instant. »</p>
+                <p class="text-slate-600">→ Enseignement de la conversation française pour le niveau intermédiaire, actuellement en cours en ligne.</p>
+                <a href="https://www.facebook.com/Langueetterroirs/" target="_blank" class="text-blue-600 underline text-sm">Voir sur Facebook</a>
+            </div>
+
+            <!-- Activités conviviales -->
+            <div class="p-6 bg-slate-50 rounded-2xl shadow">
+                <h3 class="font-semibold text-xl mb-2">🥖 Activités conviviales / culturelles</h3>
+                <ul class="list-disc ml-5 space-y-2">
+                    <li>« En chemin pour la guinguette, l’Écosse… » → Gặp gỡ, giao lưu với expatriés và francophones tại Bordeaux.</li>
+                    <li>« Back to School Picnic au Parc Floral – Bordeaux-Lac » → Picnic kết bạn Pháp – Mỹ.</li>
+                </ul>
+                <a href="https://www.facebook.com/Langueetterroirs/" target="_blank" class="text-blue-600 underline text-sm">Voir sur Facebook</a>
+            </div>
+
+            <!-- Ateliers littéraires -->
+            <div class="p-6 bg-slate-50 rounded-2xl shadow">
+                <h3 class="font-semibold text-xl mb-2">📖 Ateliers littéraires</h3>
+                <ul class="list-disc ml-5 space-y-2">
+                    <li>« Venez lire et vous exprimer sur des œuvres francophones contemporaines… » → Buổi đọc & thảo luận văn học đương đại.</li>
+                    <li>« Atelier littéraire en ligne & séjour littérature + tourisme » → Workshop văn chương online & dự án kết hợp văn học với du lịch nông thôn.</li>
+                </ul>
+                <a href="https://www.facebook.com/Langueetterroirs/" target="_blank" class="text-blue-600 underline text-sm">Voir sur Facebook</a>
+            </div>
+
+            <!-- Patrimoine local -->
+            <div class="p-6 bg-slate-50 rounded-2xl shadow">
+                <h3 class="font-semibold text-xl mb-2">🏛️ Découverte du patrimoine local</h3>
+                <p>« Construit vers l’an 200… ce temple était le principal lieu de culte de Bordeaux… Tutelle, la ‘bonne mère’, protectrice de Bordeaux. »</p>
+                <p class="text-slate-600">→ Partagez vos connaissances historiques, monuments, légendes locales à Bordeaux.</p>
+                <a href="https://www.facebook.com/Langueetterroirs/" target="_blank" class="text-blue-600 underline text-sm">Voir sur Facebook</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!-- Activités -->
+<section id="activities" class="max-w-6xl mx-auto px-4 py-16">
+    <h2 class="text-3xl font-semibold mb-8">Activités culturelles</h2>
+    <ul class="space-y-4">
+        <li>📖 Ateliers littéraires en ligne (lecture et discussion d’œuvres francophones).</li>
+        <li>🥖 Rencontres conviviales : pique-nique, cafés linguistiques, guinguettes.</li>
+        <li>🏛️ Visites guidées de Bordeaux et découverte du patrimoine local.</li>
+    </ul>
+</section>
+
+<!-- Contact -->
+<section class="bg-slate-100 py-16 ">
+    <div class="max-w-6xl mx-auto  justify-start flex flex-col md:flex-row gap-10 flex-wrap">
+        <div class="max-w-6xl  px-4">
+            <h2 class="text-3xl font-semibold mb-8">Contact</h2>
+            <p class="mb-2">📍 Libourne, France</p>
+            <p class="mb-2">📞 +33 6 51 83 23 42</p>
+            <p class="mb-2">✉️ <a href="mailto:virginie@langueetterroirs.com" class="underline">virginie@langueetterroirs.com</a></p>
+            <p class="mb-2">🌐 <a href="https://langueetterroirs.com" class="underline">langueetterroirs.com</a></p>
+            <p class="mb-2">📘 <a href="https://www.facebook.com/Langueetterroirs/" class="underline">Facebook Page</a></p>
+        </div>
+        <div>
+            <h2 class="font-semibold text-xl mb-2">Localisation</h2>
+            <!-- Placeholder map image -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2825.3205186598543!2d-0.24424032438013582!3d44.916817071070255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd55495d3dbfd51f%3A0xce9a22a9aa6e38e2!2s84%20Rue%20Montesquieu%2C%2033500%20Libourne%2C%20France!5e0!3m2!1sen!2s!4v1757473491645!5m2!1sen!2s"  style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-slate-800 text-slate-200 text-center py-6 text-sm">
+    © 2025 Langue & Terroirs — Tous droits réservés
+</footer>
+
+</body>
+</html>
